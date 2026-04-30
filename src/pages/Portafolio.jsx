@@ -14,7 +14,7 @@ const proyectos = [
     descripcion:
       "Plataforma con agente IA empático (Llama 3.3), diario emocional y modelo freemium con derivación a psicólogos.",
     stack: ["Next.js 14 ", "TypeScript", "Groq SDK", "NestJS", "Stripe"],
-    estado: "En desarrollo",
+    estado: "En Desarrollo",
     link: null,
   },
   {
@@ -67,7 +67,7 @@ function Portafolio() {
                 {proyecto.estado}
               </p>
               <div className="m-2">
-                {proyecto.link &&( <a href={proyecto.link} target="_blank" className="text-xl font-medium text-slate-400 border-2 rounded-2xl px-2 ">Ver proyectos</a>)}
+                {proyecto.link &&( <a href={proyecto.link} target="_blank" className="text-xl font-medium text-slate-400 border-2 rounded-2xl px-2 hover:border-emerald-500/20">Ver proyectos</a>)}
                 </div>
             </div>
           </div>

@@ -22,8 +22,9 @@ function Home() {
           experiencia de usuario real.
         </p>
         <div className="flex items-center justify-center flex-col lg:flex-row gap-2">
-          <a href="#portafolio" className="border-2 border-emerald-900/50  rounded-2xl text-xl  hover:cursor-pointer font-medium text-white px-4 py-3 m-2">Ver Portafolio</a>
-          <a href="#servicio" className="border-2 border-emerald-900/50 rounded-2xl text-xl  hover:cursor-pointer font-medium text-white px-4 py-3 m-2">Servicios</a>
+          <a href="#portafolio" className="border-2 border-emerald-900/50  rounded-2xl text-xl  hover:cursor-pointer font-medium text-white px-4 py-3 m-2 hover:bg-emerald-500/20 transition">Ver Portafolio</a>
+          <a href="#servicio" className="border-2 border-emerald-900/50 rounded-2xl text-xl  hover:cursor-pointer font-medium text-white px-4 py-3 m-2 hover:bg-emerald-500/20 transition">Servicios</a>
+          <a href="/CV_Vicente_Bueno_V2 30-04-2026.docx" target="_blank" className="border-2 border-emerald-900/50 rounded-2xl text-xl  hover:cursor-pointer font-medium text-white px-4 py-3 m-2 hover:bg-emerald-500/20 transition">Ver CV</a>
         </div>
       </div>
       <div className="w-full mt-5">

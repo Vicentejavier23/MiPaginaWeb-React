@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Portafolio from './pages/Portafolio'
 import Servicio from './pages/Servicios'
 import Footer from './components/Footer'
+import Certificaciones from './components/Certificaciones'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <Home/>
     <Portafolio/>
+    <Certificaciones/>
     <Servicio/>
     <Contacto/>
     <Footer/>

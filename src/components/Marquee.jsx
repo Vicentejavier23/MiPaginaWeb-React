@@ -16,7 +16,7 @@ function Marquee(){
     return(
         <div className='overflow-hidden  border-y border-emerald-700/30 py-4 bg-emerald-400/20 w-full'>
             <div className='flex animate-marquee whitespace-nowrap'>
-        {[... techs,...techs].map((tech ,index)=>(
+        {[... techs,...techs, ...techs].map((tech ,index)=>(
             <span key={index} className='flex items-center gap-2 px-10 text-white text-xl '>{tech.icono} {tech.nombre}</span> 
         ))}
         </div>
