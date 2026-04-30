@@ -42,7 +42,7 @@ function Contacto(){
                 <input value={form.asunto} onChange={(e)=>setForm({... form,asunto: e.target.value})} placeholder="Ingrese Asunto" className="border-2 border-emerald-500/20 rounded-2xl px-2"></input>
                 <textarea value={form.mensaje} onChange={(e)=>setForm({... form,mensaje: e.target.value})} placeholder="Ingrese Mensaje"  className="border-2 border-emerald-500/20 rounded-2xl px-2"></textarea>
             </div>
-            <button className="text-white font-medium border-2 border-blue-400 bg-blue-400/30 rounded-2xl px-2" onClick={handleClick} >Enviar</button>
+            <button className="border-2 border-emerald-500/30 text-emerald-400 rounded-full px-6 py-2 hover:bg-emerald-500/20 transition hover:cursor-pointer" onClick={handleClick} >Enviar</button>
         </section>
     )
 }

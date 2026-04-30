@@ -26,6 +26,14 @@ const proyectos = [
     estado: "Completado",
     link: null,
   },
+  {
+    titulo: "Portfolio V1",
+  subtitulo: "Primera versión de mi sitio personal",
+    descripcion: "Landing page con integración de chatbot y formulario de contacto automatizado. Base del proyecto actual.",
+      stack: ["HTML", "CSS", "JavaScript"],
+    estado: "Completado",
+    link: "https://vicentejavier23.github.io/MiPaginaWeb/",
+  },
 ];
 
 function Portafolio() {
