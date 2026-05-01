@@ -27,7 +27,7 @@ const proyectos = [
     link: null,
   },
   {
-    titulo: "Portfolio V1",
+    titulo: "Portafolio V1",
   subtitulo: "Primera versión de mi sitio personal",
     descripcion: "Landing page con integración de chatbot y formulario de contacto automatizado. Base del proyecto actual.",
       stack: ["HTML", "CSS", "JavaScript"],
@@ -46,7 +46,7 @@ function Portafolio() {
             key={proyecto.titulo}
            >
             <div className=" border-2 border-emerald-500/20 rounded-2xl  m-2">
-              <h1 className="text-5xl font-medium text-white">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium text-white">
                 {proyecto.titulo}
               </h1> 
               <p className="text-xl font-medium text-slate-400 flex flex-wrap justify-center gap-1">
