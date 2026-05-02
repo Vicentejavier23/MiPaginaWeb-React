@@ -32,7 +32,7 @@ const proyectos = [
     descripcion: "Landing page con integración de chatbot y formulario de contacto automatizado. Base del proyecto actual.",
       stack: ["HTML", "CSS", "JavaScript"],
     estado: "Completado",
-    link: "https://vicentejavier23.github.io/MiPaginaWeb/",
+    link: "https://mi-pagina-web-tawny.vercel.app/#inicio",
   },
 ];
 
