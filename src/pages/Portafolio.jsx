@@ -34,6 +34,7 @@ const proyectos = [
     estado: "Completado",
     link: "https://mi-pagina-web-tawny.vercel.app/#inicio",
   },
+  
 ];
 
 function Portafolio() {

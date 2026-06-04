@@ -29,6 +29,12 @@ const certificaciones = [
       año: "2025",
       link: "https://www.linkedin.com/in/vicente-javier-bueno-gret/overlay/Certifications/2080872733/treasury/?profileId=ACoAAFbcTXYB9PWZW2WPoY4xs6dhy_kcWTU_3wA"
     },
+    {
+      nombre: "Certificación Cybersecurity Awareness CAPC",
+      emisor: "Certiprof",
+      año: "2026",
+      link: "https://www.credly.com/earner/earned/badge/bd1b2bec-2e0f-4069-a532-49a03a832b4a"
+    }
   ]
 function Certificaciones(){
     return(
