@@ -30,10 +30,16 @@ const certificaciones = [
       link: "https://www.linkedin.com/in/vicente-javier-bueno-gret/overlay/Certifications/2080872733/treasury/?profileId=ACoAAFbcTXYB9PWZW2WPoY4xs6dhy_kcWTU_3wA"
     },
     {
-      nombre: "Certificación Cybersecurity Awareness CAPC",
+      nombre: "Cybersecurity Awareness Professional Certification - CAPC",
       emisor: "Certiprof",
       año: "2026",
       link: "https://www.credly.com/earner/earned/badge/bd1b2bec-2e0f-4069-a532-49a03a832b4a"
+    },
+    {
+      nombre: "Cyber Security Foundation Professional Certificate - CSFPC",
+      emisor: "Certiprof",
+      año: "2026",
+      link: "https://www.credly.com/earner/earned/badge/2dc858f0-bf77-4895-82c8-2433243636db"
     }
   ]
 function Certificaciones(){
